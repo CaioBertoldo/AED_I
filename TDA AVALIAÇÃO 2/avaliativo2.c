@@ -25,4 +25,6 @@ int main(){
 
   dividir(num, num2);
   linha();
+  
+  destruir(num, num2);
 }
