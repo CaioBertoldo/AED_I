@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include "aula.h"
 
-
-
 // Função para criar um novo nó
 Node* createNode(int key) {
     Node* newNode = (Node*)malloc(sizeof(Node));
@@ -133,9 +131,7 @@ Node* deleteKey(Node* root, int key) {
     if (root == NULL) {
         return NULL;
     }
-
     int index = findIndex(root, key);
-
     if (index < root->numKeys && key == root->keys[index]) {
         if (root->numKeys == 1) {
             // Caso 1: Nó folha com apenas uma chave
@@ -171,6 +167,5 @@ Node* deleteKey(Node* root, int key) {
         }
         root->children[index] = deleteKey(root->children[index], key);
     }
-
     return root;
 }
