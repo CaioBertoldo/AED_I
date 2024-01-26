@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/caiob/OneDrive/Área de Trabalho/Área de trabalho/AED_I",
-      "program": "c:/Users/caiob/OneDrive/Área de Trabalho/Área de trabalho/AED_I/build/Debug/outDebug",
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
