@@ -38,7 +38,11 @@ int height(NODE* root){
 
 // Função para fazer rotações-direita
 NODE* rot_right(NODE* no_desb){
+<<<<<<< HEAD
     NODE* aux = malloc(sizeof(NODE));
+=======
+    NODE* aux;
+>>>>>>> d283f3e46f01e0bc2a1d07b6b30259ba280dbbe4
     aux = no_desb->left;
     no_desb->left = aux->right;
     aux->right = no_desb;
@@ -51,7 +55,11 @@ NODE* rot_right(NODE* no_desb){
 
 // Função para fazer rotações-esquerda
 NODE* rot_left(NODE* no_desb){
+<<<<<<< HEAD
     NODE* aux = malloc(sizeof(NODE));
+=======
+    NODE* aux;
+>>>>>>> d283f3e46f01e0bc2a1d07b6b30259ba280dbbe4
     aux = no_desb->right;
     no_desb->right = aux->left;
     aux->left = no_desb;
